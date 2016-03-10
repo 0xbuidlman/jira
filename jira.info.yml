@@ -1,0 +1,7 @@
+name: JIRA field demo
+type: module
+description: JIRA field 
+core: 8.x
+package: Examples
+dependencies:
+  - node

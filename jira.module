@@ -1,0 +1,15 @@
+<?php
+/**
+ * @file
+ * Demo JIRA field module.
+ */
+
+/**
+ * Implements hook_field_widget_info_alter().
+ *
+ * Allow the `string_textfield` widget to be used on the `jira_ticket`
+ * field type.
+ */
+function jira_field_widget_info_alter(array &$info) {
+  $info['string_textfield']['field_types'][] = 'jira_ticket';
+}

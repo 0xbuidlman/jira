@@ -1,0 +1,16 @@
+# Schema for the demo JIRA field module.
+jira.settings:
+  type: config_object
+  label: 'JIRA integration settings'
+  mapping:
+    production_domain:
+      type: string
+      label: 'Production JIRA domain'
+
+field.storage_settings.jira_ticket:
+  type: mapping
+  label: 'JIRA field settings'
+  mapping:
+    max_length:
+      type: integer
+      label: 'Maximum length'

@@ -1,0 +1,5 @@
+jira.settings_form:
+  title: 'JIRA integration settings'
+  route_name: jira.settings_form
+  description: 'Configure JIRA settings.'
+  parent: system.admin_config_services

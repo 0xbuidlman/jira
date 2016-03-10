@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - jira
+id: node.field_jira
+field_name: field_jira
+entity_type: node
+type: jira_ticket
+settings:
+  max_length: 32
+module: jira
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
